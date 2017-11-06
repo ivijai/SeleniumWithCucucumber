@@ -28,6 +28,7 @@ public class LoginPage {
     {
         txtUserName.sendKeys(userName);
         txtPassword.sendKeys(password);
+        System.out.println("Hello");
     }
 
     public void ClickLogin()
